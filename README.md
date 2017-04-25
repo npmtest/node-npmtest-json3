@@ -1,6 +1,6 @@
 # npmtest-json3
 
-#### test coverage for  [json3 (v3.3.2)](http://bestiejs.github.io/json3)  [![npm package](https://img.shields.io/npm/v/npmtest-json3.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json3) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json3.svg)](https://travis-ci.org/npmtest/node-npmtest-json3)
+#### basic test coverage for  [json3 (v3.3.2)](http://bestiejs.github.io/json3)  [![npm package](https://img.shields.io/npm/v/npmtest-json3.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-json3) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-json3.svg)](https://travis-ci.org/npmtest/node-npmtest-json3)
 
 #### A modern JSON implementation compatible with nearly all JavaScript platforms.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-json3/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-json3/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-json3/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-json3/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json3/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json3/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-json3/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-json3/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-json3/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-json3/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-json3/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-json3/build/coverage.html/index.html)
 
@@ -131,7 +131,8 @@
             "test",
             "vendor"
         ]
-    }
+    },
+    "bin": {}
 }
 ```
 
